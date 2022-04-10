@@ -23,6 +23,6 @@ export const reducer = (state, action) => {
                 count: 0,
             };
         default:
-            break;
+            return state;
     }
 };
